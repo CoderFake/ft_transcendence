@@ -13,5 +13,4 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
 
-ENTRYPOINT ["sh", "docker-entrypoint.sh"]
-CMD ["0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py makemigrations chat games profiles notice && python manage.py migrate && python manage.py compilemessages && daphne -b 0.0.0.0 -p 8000 transcendence.asgi:application"]
