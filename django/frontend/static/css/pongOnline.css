@@ -1,0 +1,14 @@
+#up:active, #down:active {
+	color: red;
+}
+
+#up, #down {
+	min-height: 60px;
+	min-width: 60px;
+
+	font-size: 40px;
+}
+
+#up, #down {
+	position: relative;
+}

@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+}
+
+#gameCanvas {
+	display: block;
+}
+
+#up1:active, #down1:active, #up2:active, #down2:active {
+	color: red;
+}
+
+#up1, #down1, #up2, #down2 {
+	min-height: 60px;
+	min-width: 60px;
+
+	font-size: 40px;
+}
+
+#up1, #down1 {
+	position: relative;
+}
+
+#up2, #down2 {
+	position: relative;
+	left: calc(420px - (60px * 3));
+}

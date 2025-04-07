@@ -1,0 +1,23 @@
+#popup {
+	position: fixed;
+	font-size: 1.2em;
+	z-index: 1; /* foreground */
+
+	top:calc(1% + 0.1em);
+	left:50%;
+	transform: translate(-50%, 50%);
+
+	border: 1em	solid #1a1a1a;
+	color: #1a1a1a;
+	background-color: #cccccc;
+
+	padding: 5px;
+	border-width: 0.1em;
+
+	opacity: 0;
+	transition: opacity 0.25s; 
+}
+
+#languageSelector > .dropdown-item.active {
+	background-color: transparent;
+}

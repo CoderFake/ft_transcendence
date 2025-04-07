@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<title>Pong Game</title>
+		<link rel='stylesheet' href='{% static 'css/bootstrap/bootstrap.min.css' %}'>
+		<link rel='stylesheet' href='{% static 'css/index.css' %}'>
+	</head>
+	<body data-bs-theme='dark'>
+		<nav class='navbar navbar-expand-md bg-body-tertiary rounded border border-dark-subtle m-2'>
+			<div class='container-fluid'>
+				<button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent'>
+					<span class='navbar-toggler-icon'></span>
+				</button>
+				<div class='collapse navbar-collapse justify-content-between' id='navbarSupportedContent'>
+					<div class='navbar-nav'>
+						<a class='nav-link' href='/' data-i18n='navbarDashboard' data-link>Dashboard</a>
+						<a class='nav-link' href='/search' data-i18n='navbarSearch' data-link>Search</a>
+						<a class='nav-link' href='/home' data-i18n='navbarHome' data-link>Home</a>
+					</div>
+					<span class='navbar-brand'>Pong Game</span>
+					<div class='navbar-nav'>
+						<div class='dropdown-center'>
+							<a class='nav-link dropdown-toggle' id='languageDisplay' role='button' data-bs-toggle='dropdown'>
+								Lang.
+							</a>
+							<div class='dropdown-menu dropdown-menu-end' id='languageSelector'>
+                                <button value='vi' type='button' class='dropdown-item nav-link text-center py-1'>🇻🇳 VI</button>
+                                <button value='en' type='button' class='dropdown-item nav-link text-center py-1'>🇬🇧 EN</button>
+                            </div>
+						</div>
+						<div id='navbarLoggedOut' class='d-inline-flex'>
+							<a class='nav-link me-2 me-md-0' href='/login' data-i18n='navbarLogin' data-link>Login</a>
+							<a class='nav-link' href='/register' data-i18n='navbarRegister' data-link>Register</a>
+						</div>
+						<div class='dropdown' id='navbarLoggedIn'>
+							<a class='nav-link dropdown-toggle' id='navbarDropdownButton' role='button' data-bs-toggle='dropdown'>
+								Me
+							</a>
+							<div class='dropdown-menu dropdown-menu-end text-end px-2' style='min-width: max-content;'>
+								<a class='nav-link pt-1' id='myProfileLink' href='' data-i18n='navbarProfile' data-link>My Profile</a>
+								<a class='nav-link pt-0' href='/settings' data-i18n='navbarSettings' data-link>Settings</a>
+								<hr class='dropdown-divider mx-1 my-1'>
+								<a class='nav-link pb-1' href='/logout' data-i18n='navbarLogout' data-link>Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class='toast-container position-fixed end-0 p-3 pt-0' id='toastContainer'></div>
+		<div id='app' class='m-3'></div>
+		<script type='module' src='{% static 'js/index.js' %}'></script>
+		<script src='{% static 'js/bootstrap/bootstrap.bundle.min.js' %}'></script>
+	</body>
+</html>

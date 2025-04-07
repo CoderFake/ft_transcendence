@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-07 10:25+0100\n"
+"PO-Revision-Date: 2025-04-07 10:25+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: accounts/serializers/update_password.py:19
+msgid "Current password is incorrect."
+msgstr "Mật khẩu hiện tại không chính xác."
+
+#: accounts/serializers/update_password.py:24
+msgid "The password does not match."
+msgstr "Mật khẩu không khớp."
+
+#: accounts/serializers/update_password.py:31 accounts/serializers/update_user.py:15
+msgid "You dont have permission for this user."
+msgstr "Bạn không có quyền với người dùng này."
+
+#: accounts/views/delete.py:19
+msgid "Password incorrect."
+msgstr "Mật khẩu không chính xác."
+
+#: accounts/views/login.py:23
+msgid "Invalid username or password."
+msgstr "Tên người dùng hoặc mật khẩu không đúng."
+
+#: profiles/serializers.py:78
+msgid "Image is too large."
+msgstr "Ảnh quá lớn."
+
+#: profiles/views/blocks.py:36
+msgid "You can't block yourself."
+msgstr "Bạn không thể chặn chính mình."
+
+#: profiles/views/blocks.py:39
+msgid "You already blocked this user."
+msgstr "Bạn đã chặn người dùng này."
+
+#: profiles/views/blocks.py:42
+msgid "User successfully blocked."
+msgstr "Đã chặn người dùng thành công."
+
+#: profiles/views/blocks.py:50
+msgid "You can't unblock yourself."
+msgstr "Bạn không thể bỏ chặn chính mình."
+
+#: profiles/views/blocks.py:53
+msgid "This user is not blocked."
+msgstr "Người dùng này không bị chặn."
+
+#: profiles/views/blocks.py:56
+msgid "User successfully unblocked."
+msgstr "Đã bỏ chặn người dùng thành công."
+
+#: profiles/views/friends.py:31
+msgid "You can't be friend with yourself."
+msgstr "Bạn không thể kết bạn với chính mình."
+
+#: profiles/views/friends.py:34
+msgid "You are already friend with this user."
+msgstr "Bạn đã là bạn với người dùng này."
+
+#: profiles/views/friends.py:37
+msgid "You already sent a request to this user."
+msgstr "Bạn đã gửi lời mời kết bạn cho người dùng này."
+
+#: profiles/views/friends.py:43
+msgid "Friendship successfully created."
+msgstr "Đã kết bạn thành công."
+
+#: profiles/views/friends.py:46
+msgid "Friend request sent."
+msgstr "Đã gửi lời mời kết bạn."
+
+#: profiles/views/friends.py:55
+msgid "Friend request cancelled."
+msgstr "Đã hủy lời mời kết bạn."
+
+#: profiles/views/friends.py:58
+msgid "You are not friend with this user."
+msgstr "Bạn không phải bạn của người dùng này."
+
+#: profiles/views/friends.py:61
+msgid "Friendship successfully deleted."
+msgstr "Đã xóa bạn thành công."
+
+#: chat/serializers/chat.py:19
+msgid "There is not enough members to create the channel."
+msgstr "Không đủ thành viên để tạo kênh."
+
+#: chat/serializers/chat.py:21
+msgid "Duplicate in members list."
+msgstr "Danh sách thành viên bị trùng lặp."
+
+#: chat/serializers/chat.py:23
+msgid "You are trying to create a group chat without you."
+msgstr "Bạn đang cố tạo nhóm chat mà không có bạn."
+
+#: chat/serializers/chat.py:26
+msgid "The profile {} doesn't exist."
+msgstr "Hồ sơ {} không tồn tại."
+
+#: frontend/templates/index.html:17
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: frontend/templates/index.html:18
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: frontend/templates/index.html:19
+msgid "Home"
+msgstr "Trang chủ"
+
+#: frontend/templates/index.html:29
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: frontend/templates/index.html:30
+msgid "Register"
+msgstr "Đăng ký"
+
+#: frontend/templates/index.html:37
+msgid "My Profile"
+msgstr "Hồ sơ của tôi"
+
+#: frontend/templates/index.html:38
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: frontend/templates/index.html:40
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: transcendence/settings.py:82
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: transcendence/settings.py:83
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+#: games/views/history.py:25
+msgid "Game not found."
+msgstr "Không tìm thấy trò chơi."
+
+#: notice/models.py:15
+msgid "friend_request"
+msgstr "lời mời kết bạn"
+
+#: notice/models.py:16
+msgid "new_friend"
+msgstr "bạn mới"
+
+#: notice/models.py:17
+msgid "friend_removed"
+msgstr "đã xóa bạn"
+
+#: notice/models.py:18
+msgid "game_asked"
+msgstr "lời mời chơi game"
+
+#: notice/models.py:19
+msgid "game_refused"
+msgstr "từ chối chơi game"
+
+#: notice/models.py:20
+msgid "game_accepted"
+msgstr "chấp nhận chơi game"

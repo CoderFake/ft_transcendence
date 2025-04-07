@@ -1,0 +1,25 @@
+#app * {
+	font-size: 30px;
+}
+
+#app #username
+{
+	font-size: 0.8em;
+}
+
+#app #block, #app #friend {
+	cursor: pointer;
+	font-size: 0.7em;
+	text-decoration: underline;
+}
+
+#app {
+	margin-top: 1em;
+}
+
+#app #yes, #app #no {
+	display:inline;
+	cursor: pointer;
+	font-size: 0.7em;
+	text-decoration: underline;
+}

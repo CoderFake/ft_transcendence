@@ -1,0 +1,166 @@
+{
+  "navbarDashboard": "Bảng điều khiển",
+  "navbarSearch": "Tìm kiếm",
+  "navbarHome": "Trang chủ",
+  "navbarLogin": "Đăng nhập",
+  "navbarRegister": "Đăng ký",
+  "navbarProfile": "Hồ sơ của tôi",
+  "navbarSettings": "Cài đặt",
+  "navbarLogout": "Đăng xuất",
+
+  "homeTitle": "Trang chủ",
+  "homeOnline": "Trực tuyến",
+  "homePongOffline": "Pong ngoại tuyến",
+  "homeTicTacToeOffline": "Tic Tac Toe ngoại tuyến",
+
+  "matchmakingTitle": "Tìm trận",
+  "matchmakingStartSearch": "Bắt đầu tìm kiếm",
+  "matchmakingStopSearch": "Dừng tìm kiếm",
+  "matchmakingNbPlayers": "Số người chơi",
+  "matchmakingPresentation": "Tìm trận đấu trực tuyến",
+
+  "offlinePongPresentation": "Chơi Pong ngoại tuyến với bạn bè",
+  "offlineTicTacToePresentation": "Chơi Tic Tac Toe ngoại tuyến",
+
+  "gamemodeChoice": "Chọn chế độ chơi",
+
+  "settingsTitle": "Cài đặt",
+  "settingsAvatarTitle": "Ảnh đại diện",
+  "settingsAvatarSave": "Lưu",
+  "settingsAvatarDelete": "Xóa",
+  "settingsAvatarSaved": "Đã lưu ảnh đại diện",
+  "settingsAvatarDeleted": "Đã xóa ảnh đại diện",
+  "settingsAvatarTooLarge": "Kích thước ảnh quá lớn",
+  "settingsAvatarDeleteError": "Lỗi khi xóa ảnh đại diện",
+
+  "settingsUsername": "Tên người dùng",
+  "settingsUsernameSave": "Lưu",
+  "settingsUsernameSaved": "Đã lưu tên người dùng",
+
+  "settingsPasswordTitle": "Thay đổi mật khẩu",
+  "settingsCurrentPassword": "Mật khẩu hiện tại",
+  "settingsNewPassword": "Mật khẩu mới",
+  "settingsRepeatNewPassword": "Nhập lại mật khẩu mới",
+  "settingsPasswordSave": "Cập nhật mật khẩu",
+  "settingsPasswordSaved": "Đã cập nhật mật khẩu",
+
+  "settingsDeleteButton": "Xóa tài khoản",
+  "settingsDeleteTitle": "Xóa tài khoản",
+  "settingsDeleteConfirm": "Xác nhận bằng mật khẩu của bạn",
+  "settingsDeleteInput": "Mật khẩu",
+  "settingsDeleteCancel": "Hủy",
+  "settingsDeleteSuccess": "Tài khoản đã được xóa",
+
+  "errorEmptyField": "Trường này không được để trống",
+
+  "loginWindowTitle": "Đăng nhập",
+  "loginFormTitle": "Đăng nhập",
+  "loginFormUsername": "Tên người dùng",
+  "loginFormPassword": "Mật khẩu",
+  "loginFormButton": "Đăng nhập",
+  "loginNoAccount": "Chưa có tài khoản?",
+  "loginRegister": "Đăng ký",
+
+  "registerWindowTitle": "Đăng ký",
+  "registerFormTitle": "Đăng ký",
+  "registerFormUsername": "Tên người dùng",
+  "registerFormPassword": "Mật khẩu",
+  "registerFormButton": "Đăng ký",
+  "registerAlreadyAccount": "Đã có tài khoản?",
+  "registerLogin": "Đăng nhập",
+
+  "ticTacToeTitle": "Tic Tac Toe",
+  "ruleTitle": "Luật chơi",
+  "ruleBase": "Chiến thắng bằng cách đạt được ba dấu X hoặc O liên tiếp trong một bảng nhỏ.",
+  "ruleMovement": "Nước đi của bạn xác định bảng mà đối thủ phải đánh vào.",
+  "ruleDraw": "Khi một bảng đã đầy hoặc thắng, người chơi tiếp theo có thể chọn bất kỳ bảng còn trống nào.",
+  "morpionWin": "Người thắng: ",
+
+  "SearchWindowTitle": "Tìm kiếm",
+  "404WindowTitle": "Không tìm thấy trang",
+
+  "homeWindowTitle": "Trang chủ",
+  "DashboardTitle": "Bảng điều khiển",
+
+  "Game": "Trò chơi",
+  "Pong": "Pong",
+  "Matchmaking": "Tìm trận đấu",
+
+  "friendRequest": "Lời mời kết bạn",
+  "newFriend": "Bạn mới",
+  "friendRemoved": "Đã xóa bạn",
+  "friendRequestCanceled": "Hủy lời mời kết bạn",
+  "gameInvite": "Lời mời chơi game",
+  "gameRefused": "Từ chối chơi game",
+  "gameAccepted": "Chấp nhận chơi game",
+
+  "addFriend": "Thêm bạn",
+  "removeFriend": "Xóa bạn",
+  "acceptRequest": "Chấp nhận lời mời",
+  "cancelRequest": "Hủy lời mời",
+
+  "Winrate": "Tỷ lệ thắng",
+  "Games": "Trò chơi",
+
+  "Profile": "Hồ sơ",
+  "Block": "Chặn",
+  "Unblock": "Bỏ chặn",
+
+  "Chat": "Trò chuyện",
+  "invite": "Mời",
+  "yes": "Có",
+  "no": "Không",
+
+  "tournament": "Giải đấu",
+  "startGame": "Bắt đầu trò chơi",
+  "resetGame": "Đặt lại trò chơi",
+  "stopGame": "Dừng trò chơi",
+  "startTournament": "Bắt đầu giải đấu",
+  "switchTo3D": "Chuyển sang 3D",
+  "switchTo2D": "Chuyển sang 2D",
+
+  "Player1": "Người chơi 1",
+  "Player2": "Người chơi 2",
+  "Player3": "Người chơi 3",
+  "Player4": "Người chơi 4",
+
+  "wins": "thắng",
+  "GGS": "GG",
+
+  "waiting": "Đang chờ",
+  "started": "Đã bắt đầu",
+  "finished": "Đã kết thúc",
+
+  "onlineStatus": "Trực tuyến",
+  "offlineStatus": "Ngoại tuyến",
+
+  "Winner": "Người thắng",
+  "youCantBlockYourself": "Bạn không thể chặn chính mình",
+  "youAlreadyBlockedThisUser": "Bạn đã chặn người dùng này",
+  "userSuccessfullyBlocked": "Đã chặn người dùng thành công",
+  "youCantUnblockYourself": "Bạn không thể bỏ chặn chính mình",
+  "thisUserIsNotBlocked": "Người dùng này không bị chặn",
+  "userSuccessfullyUnblocked": "Đã bỏ chặn người dùng thành công",
+
+  "youCantBeFriendWithYourself": "Bạn không thể kết bạn với chính mình",
+  "youAreAlreadyFriendWithThisUser": "Bạn đã là bạn với người dùng này",
+  "youAlreadySentARequestToThisUser": "Bạn đã gửi lời mời kết bạn cho người dùng này",
+  "friendshipSuccessfullyCreated": "Đã kết bạn thành công",
+  "friendRequestSent": "Đã gửi lời mời kết bạn",
+  "friendRequestCancelled": "Đã hủy lời mời kết bạn",
+  "youAreNotFriendWithThisUser": "Bạn không phải bạn của người dùng này",
+  "friendshipSuccessfullyDeleted": "Đã xóa bạn thành công",
+
+  "invalidUsernameOrPassword": "Tên người dùng hoặc mật khẩu không đúng",
+  "passwordIncorrect": "Mật khẩu không chính xác",
+  "currentPasswordIsIncorrect": "Mật khẩu hiện tại không chính xác",
+  "thePasswordDoesNotMatch": "Mật khẩu không khớp",
+  "youDontHavePermissionForThisUser": "Bạn không có quyền với người dùng này",
+
+  "imageIsTooLarge": "Ảnh quá lớn",
+
+  "thereIsNotEnoughMembersToCreateTheChannel": "Không đủ thành viên để tạo kênh",
+  "duplicateInMembersList": "Danh sách thành viên bị trùng lặp",
+  "youAreTryingToCreateAGroupChatWithoutYou": "Bạn đang cố tạo nhóm chat mà không có bạn",
+  "theProfileDoesntExist": "Hồ sơ không tồn tại"
+}
